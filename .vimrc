@@ -6,6 +6,8 @@
 "highlight search strings
 :set hlsearch
 :setlocal foldmethod=syntax
+" allows foldmethod to visually highlight and use zf to fold, and zo to open said fold
+:set foldmethod=manual
 "All necessary things for correct tabbing (2 spaces/tab) and auto indentation
 "based on syntax
 :set et
