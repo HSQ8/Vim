@@ -45,6 +45,9 @@
 :set mouse=a
 "this allows vim to show a long line as multiline visually but maintain oneline
 :set wrap
+" disable annoying sounds in WSL
+set noerrorbells
+set vb t_vb=
 
 " File explorer netre settings======================================================================
 
